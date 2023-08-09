@@ -19,6 +19,9 @@ body{
     background-size: cover;
     background-position: center;
 }
+#header img{
+    border-radius: 100%;
+}
 .container{
     padding: 10px 10%;
 }
