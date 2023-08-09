@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatinle" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet"href="style.css"/>
+        <script src="https://kit.fontawesome.com/3329238b8b.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+      <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/Ux</p>
+                <h1>Hi,I am <span>Teja Murkutla</span> <br>From India</h1>
+            </div>
+        </div>
+      </div>
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque accusantium voluptate, excepturi earum laboriosam nesciunt iusto accusamus veniam sint delectus similique veritatis sit doloribus fugit nihil omnis, exercitationem, quas totam.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Java</span><br>Programming</li>
+                            <li><span>HTMl</span><br>Web Development</li>
+                            <li><span>CSS</span><br>Styling webapages</li>
+                            <li><span>SQL</span><br>DataBase Managment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <p>A <span>Fresher</span> who is trying to get placed in one fo the best companies which encourage my talent and help me grow in my career.I am looking for a job as a Software Engineer with the technical skills like Java,HTML,CSS,basics of Java Script.</p>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018</span><br>SSC at Sai Vikas,Chilakaluripeta</li>
+                            <li><span>2018-2020</span><br>Intermediate at Sri chaitanya jr college,Guntur</li>
+                            <li><span>2020-present</span><br>Graduating at Aditya Engineering College in the Stream of CSE,East Godavari</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>Web Development</h2>
+                    <p>very good at Web development using HTML,CSS.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Java Programming</h2>
+                    <p>Had Experience in java Programming language.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <p>Had some experience in SQL DataBase Managment system.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+    
+        </div>
+      </div>
+      <div id="Certifications">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1 (2).png" >
+                    <div class="layer">
+                        <h3>Java From GreatLearning</h3>
+                        <p>Completed an self-paced video tutorials and gained a verified certificate from the platform GreatLearning</p>
+                        <a href="#"><i class="fa-brands fa-java"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2 (2).png" >
+                    <div class="layer">
+                        <h3>HTML From Udemy</h3>
+                        <p>Completed an self-paced video tutorials and gained a verified certificate from the platform Udemy</p>
+                        <a href="#"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3 (2).png" >
+                    <div class="layer">
+                        <h3>CSS from Udemy</h3>
+                        <p>Completed an self-paced video tutorials and gained a verified certificate from the platform Udemy</p>
+                        <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <p><i class="fa-solid fa-envelope"></i>Contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/teja-murukutla-11ba5920a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/myResume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                   <form>
+                    <input type="text" name="Name" placeholder="your Name" required>
+                    <input type="email" name="email" placeholder="your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> TejaMurukutla </p>
+        </div>
+      </div>
+
+
+      <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+  </script>
+
+         </body>
+</html>
